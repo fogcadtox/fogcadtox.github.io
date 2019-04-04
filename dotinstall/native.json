@@ -1,0 +1,11 @@
+var current = [{ "title": "native" }];
+var parent = [{ "title": "ドットインストール" }];
+
+var json_data = [
+	{ "img": "client-side"},
+	{ "img": "develop"},
+	{ "img": "native"},
+	{ "img": "platform"},
+	{ "img": "server-side"},
+	{ "img": "web-server"},
+];

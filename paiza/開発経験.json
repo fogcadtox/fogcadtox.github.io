@@ -1,0 +1,7 @@
+var current = [{ "title": "開発経験" }];
+var parent = [{ "title": "Paiza" }];
+
+var json_data = [
+	{ "img": "ソフトウェア開発"},
+	{ "img": "開発経験"},
+];

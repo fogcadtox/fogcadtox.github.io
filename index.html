@@ -2,46 +2,13 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ゲームのためのHTML・CSS・JavaScript</title>
-
+	<title>つくった資料をエクスプローラみたいにしてみた</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="top.json"></script>
 </head>
 <body>
-	<label id = text2 for="text1">不安ゲージ：0%</label>
-	<progress id="text1" value="0" max="100">10%</progress>
-
-	<p id="RealtimeClockArea"></p>
-
-	<!-- <input type="text" id="text1" value="10" maxlength="5" disabled> -->
-	<input type="button" value="次の日へ" onclick="clickBtn1()">
-	
-	<script type="text/javascript">
-		// var d = document.getElementById("file");
-		// d.setAttribute("value",20);
-
-
-		// function showClock1() {
-		// 	var nowTime = new Date();
-		// 	var nowSec  = nowTime.getSeconds();
-		// 	var count = 0;
-		// 	var msg = nowSec;
-		// 	document.getElementById("RealtimeClockArea").innerHTML = msg;
-		// }
-		// setInterval('showClock1()',0);
-
-		var count = 0;
-
-		function clickBtn1(){
-			const text1 = document.getElementById("text1");
-			const str1 = text1.getAttribute("value");
-			text1.setAttribute("value",count);
-			var randomCount = Math.floor( Math.random() * (20) );
-			count += randomCount;
-
-			var text2 = document.getElementById("text2");
-			text2.innerHTML = "不安ゲージ：" + count + "％";
-		}
-
-	</script>
+<script type="text/javascript" src="header.js"></script>
+<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
