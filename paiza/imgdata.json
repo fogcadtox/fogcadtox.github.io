@@ -1,0 +1,14 @@
+var FileName = [
+	{ "data": "SoftwareDevelop"},
+	{ "data": "DevelopExperience"},
+];
+
+var ImgName = [
+	{ "data": "ソフトウェア開発"},
+	{ "data": "開発経験"},
+];
+
+var ImgData = [
+	{ "img": "ソフトウェア開発"},
+	{ "img": "開発経験"},
+];

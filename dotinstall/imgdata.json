@@ -1,0 +1,17 @@
+var FileName = [
+	{ "data": "client-side"},
+	{ "data": "develop"},
+	{ "data": "native"},
+	{ "data": "platform"},
+	{ "data": "server-side"},
+	{ "data": "web-server"},
+];
+
+var ImgName = [
+	{ "data": "クライアントサイド"},
+	{ "data": "開発"},
+	{ "data": "ネイティブ"},
+	{ "data": "プラットフォーム"},
+	{ "data": "サーバーサイド"},
+	{ "data": "Webサーバー"},
+];

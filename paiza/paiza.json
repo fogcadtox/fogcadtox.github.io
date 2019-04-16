@@ -1,6 +1,0 @@
-var current = [{ "title": "Paiza" }];
-
-var json_data = [
-	{ "img": "ソフトウェア開発"},
-	{ "img": "開発経験"},
-];

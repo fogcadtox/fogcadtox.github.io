@@ -1,8 +1,9 @@
-var Content = document.createElement('div');
-	Explorer.appendChild(Content);
+var Content = DomElement(Explorer, Content, 'div', "");
+// var Content = document.createElement('div');
+// 	Explorer.appendChild(Content);
 	Content.setAttribute("id","content");
 
-for (var i = 0; i < json_data.length; i++) {
+for (var i = 0; i < FolderLink.length; i++) {
 
 	var Float = document.createElement('div');
 		Content.appendChild(Float);
@@ -15,7 +16,7 @@ for (var i = 0; i < json_data.length; i++) {
 
 			var Anchor = document.createElement('a');
 			Center.appendChild(Anchor);
-			Anchor.href = home[i].link + "index.html";
+			Anchor.href = FolderLink[i].data + "index.html";
 
 				var SpanImage = document.createElement('span');
 				Anchor.appendChild(SpanImage);
@@ -27,7 +28,7 @@ for (var i = 0; i < json_data.length; i++) {
 				Anchor.appendChild(H1);
 				Center.classList.add("inline-block");
 
-					var	H1Text = document.createTextNode(json_data[i].img);
+					var	H1Text = document.createTextNode(FolderName[i].data);
 					H1.appendChild(H1Text);
 }
 

@@ -1,0 +1,13 @@
+var FolderLink = [
+	{ "data": "paiza/" },
+	{ "data": "dotinstall/" },
+	{ "data": "wikipedia/" },
+	{ "data": "other/" },
+];
+
+var FolderName = [
+	{ "data": "Paizaまとめ"},
+	{ "data": "ドットインストールまとめ"},
+	{ "data": "プログラミング for Wikipediaまとめ"},
+	{ "data": "その他"},
+];

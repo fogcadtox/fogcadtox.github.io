@@ -1,0 +1,13 @@
+var FileName = [
+	{ "data": "ComputerProgramming"},
+	{ "data": "ComputerProgrammingRelation"},
+	{ "data": "ComputerProgrammingType"},
+	{ "data": "ProgrammingParadigm"},
+];
+
+var ImgName = [
+	{ "data": "コンピュータ・プログラミング言語"},
+	{ "data": "コンピュータ・プログラミング言語の関連項目"},
+	{ "data": "コンピュータ言語の種類一覧"},
+	{ "data": "プログラミングパラダイム"},
+];
