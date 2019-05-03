@@ -17,6 +17,12 @@ var FileName = [
 	{ "data": "3"},
 	{ "data": "4"},
 	{ "data": "5"},
+	{ "data": "site&game"},
+	{ "data": "index"},
+	{ "data": "1-2-3"},
+	{ "data": "gijyutsu"},
+	{ "data": "plus-alpha"},
+	{ "data": "text for website"},
 ];
 
 var ImgName = [
@@ -38,4 +44,10 @@ var ImgName = [
 	{ "data": "CSS+JavaScript"},
 	{ "data": "ユーザーインターフェース"},
 	{ "data": "ほんとうのOTHER"},
+	{ "data": "サイトとゲームの共通項"},
+	{ "data": "index[索引]"},
+	{ "data": "概念 - 構文 - 活用"},
+	{ "data": "技術"},
+	{ "data": "何もないところからつくるのは難しい。+αはしやすい。"},
+	{ "data": "テキストがWebサイトに"},
 ];
