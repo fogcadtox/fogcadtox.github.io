@@ -37,7 +37,7 @@ var Explorer = DomElement(document.body, Explorer, 'div', "explorer");
 			var A2Text = DomText(SpanA2, A2Text, "－");
 			var B2Text = DomText(SpanB2, B2Text, "□");
 			var C2Text = DomText(SpanC2, C2Text, "❐");
-			var D2Text = DomText(SpanD2, D2Text, "✖");
+			var D2Text = DomText(SpanD2, D2Text, "×");
 
 	var SearchBox = DomElement(Explorer, SearchBox, 'div', "search-box");
 

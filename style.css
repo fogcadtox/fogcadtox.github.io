@@ -4,7 +4,7 @@
 /* Format */
 html { font-family: 'Noto Sans JP', 'Meiryo UI', sans-serif; }
 h1 { font-size: 14px; }
-.center > a > img { width: 100%; }
+.center > a > img { width: 100%; position: relative; z-index: -1; }
 a { text-decoration: none; }
 
 /* JavaScript Used */
@@ -24,14 +24,19 @@ a { text-decoration: none; }
 	display: inline-block;
 	margin: 10px;
 }
-/*.float:hover,*/
-.float > div:hover { background: rgba(30,30,55,.2); }
+	.float > div { border-radius: 1px; }
 
-	.float > div > a {
-		display: inline-block;
-		width: 100px;
-		padding: 9px 9px 6px;
+	.float > div:hover {
+		background: rgba(132, 165, 199, 0.24);
+		border: solid 1px rgba(132, 165, 199, 0.24);
+		margin: -1px;
 	}
+
+		.float > div > a {
+			display: inline-block;
+			width: 100px;
+			padding: 9px 9px 6px;
+		}
 
 .explorer
 {
@@ -39,16 +44,16 @@ a { text-decoration: none; }
 	margin: 10px 0;
 }
 
-.rapper { margin-right: 12px; }
+/*.rapper { margin-right: 12px; }*/
 
 .header
 {
 	background: green;
 	width: 100%;
-	padding: 6px;
+	/*padding: 6px;*/
 }
 
-.header-left { vertical-align: top; }
+.header-left { vertical-align: top; position: relative; top: -1px; }
 	.header-left p
 	{
 		color: white;
@@ -59,14 +64,58 @@ a { text-decoration: none; }
 		left: 8px;
 	}
 
-.header-right span
+.header-right > span
 {
-	color: white; cursor: default;
+	color: white;
+	cursor: default;
 	font-size: 16px;
 }
-.header-right .white:hover { background: rgba(255,255,255,.2); }
-.header-right .red:hover   { background: rgba(255,0,0,1);      }
-.light { display: inline-block; padding: 2px 6px 4px 6px; }
+
+.header-right > span > span {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header-right > span:first-child > span {
+	font-size: 16px;
+	height: 25px;
+	position: relative;
+	top: -1px;
+	padding: 2px 0 0;
+}
+.header-right > span:last-child > span {
+	font-size: 16px;
+	height: 27px;
+	position: relative;
+	top: -1px;
+	padding: 1px 0 0;
+}
+
+.header-right > span:nth-child(2) > span,
+.header-right > span:nth-child(3) > span {
+	font-size: 14px;
+	position: relative;
+	top: -.5px;
+	padding: 1.7px 0 0;
+	height: 25px;
+}
+
+
+.header-right .white:hover {
+	transition: background .4s;
+	background: rgba(255,255,255,.1);
+}
+.header-right .red:hover {
+	transition: background .4s;
+	background: rgba(234,0,0,1);
+}
+
+.light {
+	display: inline-block;
+	/*padding: 2px 0 4px;*/
+	width: 46px;
+	/*height: 28px;*/
+}
 
 .search-box
 {
