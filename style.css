@@ -70,14 +70,11 @@ a { text-decoration: none; }
 
 .search-box
 {
-	height: 28px;
+	height: 26px;
 	margin: 6px 5px;
 	border: solid 1px #ccc;
 }
-	.search-box span
-	{
-		margin: 0 6px;
-	}
+	.search-box span { margin: 0 7px; }
 		.search-box span::after
 		{
 			content:">";
